@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1">
+	
+
+   <test name="Sample Tests">
+   	<groups>   			
+		<run>
+			<include name="regression"></include>
+			<include name="smoke"></include>
+		</run>
+	</groups>
+	
+      <classes>
+         <class name="com.selenium.Webdriver.dataproviderTests.SampleTest">          
+         	<methods>
+					<!--include name="someTest" /-->
+					<include name = "someTest2"/>
+			</methods>	
+         </class>         
+      </classes>
+   </test>
+</suite>

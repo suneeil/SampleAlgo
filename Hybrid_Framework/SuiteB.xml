@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite B" verbose="1">
+	
+	<!-- Note:
+			1. Need to add the Class that has all the tests
+			2. Need to include the methods
+			3. The methods will be executed as per order maintained in the smoke.xml file 
+			4. Cannot duplicate the class name in the same module
+			5. The class can be call in other module as well
+	 -->
+	
+	<test name="Test B1">
+			<classes>
+			<class name="com.org.hybrid.testcases.TestCaseB1">
+				<!-- methods>
+					<include name="testcaseOne" />
+					<include name="testcaseTwo" />
+					<include name='beforet'/>
+					<include name='aftert'/>
+				</methods-->	
+			</class>
+	
+		</classes>
+	</test>
+	<test name="Test B2">
+			<classes>
+			<class name="com.org.hybrid.testcases.TestCaseB2">
+				<!-- methods>
+					<include name="testcaseOne" />
+					<include name="testcaseTwo" />
+					<include name='beforet'/>
+					<include name='aftert'/>
+				</methods-->	
+			</class>
+	
+		</classes>
+	</test>
+	
+</suite>

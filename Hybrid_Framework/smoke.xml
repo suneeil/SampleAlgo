@@ -1,0 +1,66 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Evangelist and Business Head" verbose="1">
+	<listeners>
+		 <!-- <listener class-name="org.justdial.listener.TestsListenerAdapter" /> -->
+		<!-- <listener class-name="org.justdial.listener.CustomListener" /> -->
+		<!-- <listener class-name="com.justdial.listener.CustomReporter" /> -->
+	</listeners>
+	
+	<!-- Note:
+			1. Need to add the Class that has all the tests
+			2. Need to include the methods
+			3. The methods will be executed as per order maintained in the smoke.xml file 
+			4. Cannot duplicate the class name in the same module
+			5. The class can be call in other module as well
+	 -->
+	
+	<test name="Name of your Module">
+	<groups>	
+		<run>
+			<include name="regression"></include>
+			<include name="smoke"></include>
+		</run>
+	</groups>
+	
+		<classes>
+			<class name="org.justdial.testSuite.yourSuiteNameA.TestClassA">
+				<methods>
+					<include name="testcaseOne" />
+					<include name="testcaseTwo" />
+					<include name='beforet'/>
+					<include name='aftert'/>
+				</methods>	
+			</class>
+			<!-- <class name="org.justdial.testSuite.yourSuiteNameA.TestB">
+				<methods>
+					<include name="testB1" />
+					<include name="testB2" />
+					<include name="testB3" />
+				</methods>	
+			</class>
+			<class name="org.justdial.testSuite.yourSuiteNameA.TestC">
+				<methods>
+					<include name="testC1" />
+				</methods>	
+			</class> -->
+		</classes>
+	</test>
+	
+	<!-- <test name="Name of Test Module">
+		<classes>
+			<class name="org.justdial.testsuite.yourSuiteNameA.TestClassA">
+				<methods>
+					<include name="testcaseOne" />
+					<include name="testcaseTwo" />
+				</methods>	
+			</class>
+			<class name="org.justdial.testsuite.yourSuiteNameA.TestClassB">
+				<methods>
+					<include name="testcaseOne" />
+					<include name="testcaseTwo" />
+				</methods>	
+			</class>
+		</classes>
+	</test> -->
+</suite>

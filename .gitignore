@@ -1,0 +1,5 @@
+﻿.*
+!.gitignore
+/bddAPI/target/*
+/.metadata/
+/.recommenders/

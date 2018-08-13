@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="396" started-at="2017-07-28T01:55:31Z" finished-at="2017-07-28T01:55:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="396" started-at="2017-07-28T01:55:31Z" finished-at="2017-07-28T01:55:31Z">
+      <class name="com.org.hybrid.sessionsuite.ChangePassword">
+        <test-method status="PASS" signature="befSuite()[pri:0, instance:com.org.hybrid.sessionsuite.ChangePassword@6a1aab78]" name="befSuite" is-config="true" duration-ms="6" started-at="2017-07-28T07:25:31Z" finished-at="2017-07-28T07:25:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befSuite -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.org.hybrid.sessionsuite.ChangePassword@6a1aab78]" name="before" is-config="true" duration-ms="0" started-at="2017-07-28T07:25:31Z" finished-at="2017-07-28T07:25:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="beforeCls()[pri:0, instance:com.org.hybrid.sessionsuite.ChangePassword@6a1aab78]" name="beforeCls" is-config="true" duration-ms="0" started-at="2017-07-28T07:25:31Z" finished-at="2017-07-28T07:25:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeCls -->
+        <test-method status="PASS" signature="befMeth(java.lang.reflect.Method)[pri:0, instance:com.org.hybrid.sessionsuite.ChangePassword@6a1aab78]" name="befMeth" is-config="true" duration-ms="3" started-at="2017-07-28T07:25:31Z" finished-at="2017-07-28T07:25:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.org.hybrid.sessionsuite.ChangePassword.test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMeth -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.org.hybrid.sessionsuite.ChangePassword@6a1aab78]" name="test1" duration-ms="5" started-at="2017-07-28T07:25:31Z" finished-at="2017-07-28T07:25:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="aftMeth(java.lang.reflect.Method)[pri:0, instance:com.org.hybrid.sessionsuite.ChangePassword@6a1aab78]" name="aftMeth" is-config="true" duration-ms="4" started-at="2017-07-28T07:25:31Z" finished-at="2017-07-28T07:25:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.org.hybrid.sessionsuite.ChangePassword.test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMeth -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.org.hybrid.sessionsuite.ChangePassword@6a1aab78]" name="test2" duration-ms="1" started-at="2017-07-28T07:25:31Z" finished-at="2017-07-28T07:25:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="befMeth(java.lang.reflect.Method)[pri:0, instance:com.org.hybrid.sessionsuite.ChangePassword@6a1aab78]" name="befMeth" is-config="true" duration-ms="0" started-at="2017-07-28T07:25:31Z" finished-at="2017-07-28T07:25:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.org.hybrid.sessionsuite.ChangePassword.test2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMeth -->
+        <test-method status="PASS" signature="aftMeth(java.lang.reflect.Method)[pri:0, instance:com.org.hybrid.sessionsuite.ChangePassword@6a1aab78]" name="aftMeth" is-config="true" duration-ms="1" started-at="2017-07-28T07:25:31Z" finished-at="2017-07-28T07:25:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.org.hybrid.sessionsuite.ChangePassword.test2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMeth -->
+        <test-method status="PASS" signature="befMeth(java.lang.reflect.Method)[pri:0, instance:com.org.hybrid.sessionsuite.ChangePassword@6a1aab78]" name="befMeth" is-config="true" duration-ms="1" started-at="2017-07-28T07:25:31Z" finished-at="2017-07-28T07:25:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.org.hybrid.sessionsuite.ChangePassword.test3()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMeth -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.org.hybrid.sessionsuite.ChangePassword@6a1aab78]" name="test3" duration-ms="1" started-at="2017-07-28T07:25:31Z" finished-at="2017-07-28T07:25:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="aftMeth(java.lang.reflect.Method)[pri:0, instance:com.org.hybrid.sessionsuite.ChangePassword@6a1aab78]" name="aftMeth" is-config="true" duration-ms="1" started-at="2017-07-28T07:25:31Z" finished-at="2017-07-28T07:25:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.org.hybrid.sessionsuite.ChangePassword.test3()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMeth -->
+        <test-method status="PASS" signature="aftoreCls()[pri:0, instance:com.org.hybrid.sessionsuite.ChangePassword@6a1aab78]" name="aftoreCls" is-config="true" duration-ms="0" started-at="2017-07-28T07:25:31Z" finished-at="2017-07-28T07:25:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftoreCls -->
+        <test-method status="PASS" signature="aftTest()[pri:0, instance:com.org.hybrid.sessionsuite.ChangePassword@6a1aab78]" name="aftTest" is-config="true" duration-ms="368" started-at="2017-07-28T07:25:31Z" finished-at="2017-07-28T07:25:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftTest -->
+        <test-method status="PASS" signature="aftSuite()[pri:0, instance:com.org.hybrid.sessionsuite.ChangePassword@6a1aab78]" name="aftSuite" is-config="true" duration-ms="1" started-at="2017-07-28T07:25:31Z" finished-at="2017-07-28T07:25:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftSuite -->
+      </class> <!-- com.org.hybrid.sessionsuite.ChangePassword -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

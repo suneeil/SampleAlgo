@@ -1,0 +1,16 @@
+To Use the Student API 
+1. Unzip the StudentApp.zip file
+2. To Run the Student App
+	2a. Open Command prompt
+	2b. Navigate to the Unzipped Folder of StudentApp you should have "rest.jar"
+	2c. Run the command "java -jar rest.jar"
+	
+Note: The application starts by default on port 8080
+To check if the Student app is running
+	Open a browser and enter http://localhost:8080/student/list	
+
+Note: The Student App runs by default on the 8080 port if there is any other App running port kill it or 
+Run the StudentApp on another port
+	
+		
+	 java -jar rest.jar --server.port=8085

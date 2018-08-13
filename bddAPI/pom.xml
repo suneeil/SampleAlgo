@@ -1,0 +1,187 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<!--**************** 
+		To Run the Test from command line 
+		mvn clean verify serenity:aggregate -Dbase.uri=http://localhost:8085/student 
+	****************-->
+	<groupId>com.pratice</groupId>
+	<artifactId>bddAPI</artifactId>
+	<version>1.0</version>
+	<packaging>jar</packaging>
+
+	<name>bddAPI</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<serenity.version>1.9.19</serenity.version> <!-- https://bintray.com/serenity/maven/serenity-core/ -->
+		<serenity.maven.version>1.9.19</serenity.maven.version>
+		<serenity.cucumber.version>1.1.6</serenity.cucumber.version> <!-- https://bintray.com/serenity/maven/serenity-cucumber/ -->
+	</properties>
+
+	<!-- Define the Bintray repos for convenience -->
+	<repositories>
+		<repository>
+			<id>serenity</id>
+			<name>bintray</name>
+			<url>http://dl.bintray.com/serenity/maven</url>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>serenity</id>
+			<name>bintray-plugins</name>
+			<url>http://dl.bintray.com/serenity/maven</url>
+		</pluginRepository>
+	</pluginRepositories>
+
+
+
+
+	<dependencies>
+		<!-- Imp -->
+		<dependency>
+			<groupId>net.serenity-bdd</groupId>
+			<artifactId>serenity-core</artifactId>
+			<version>${serenity.version}</version>
+		</dependency>
+		<!-- Imp -->
+		<dependency>
+			<groupId>net.serenity-bdd</groupId>
+			<artifactId>serenity-junit</artifactId>
+			<version>${serenity.version}</version>
+		</dependency>
+		<!-- Imp -->
+		<dependency>
+			<groupId>net.serenity-bdd</groupId>
+			<artifactId>serenity-rest-assured</artifactId>
+			<version>${serenity.version}</version>
+		</dependency>
+		<!-- Imp -->
+		<dependency>
+			<groupId>net.serenity-bdd</groupId>
+			<artifactId>serenity-cucumber</artifactId>
+			<version>${serenity.cucumber.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.6.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.groovy</groupId>
+			<artifactId>groovy-all</artifactId>
+			<version>1.8.6</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.5.4</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.googlecode.lambdaj</groupId>
+			<artifactId>lambdaj</artifactId>
+			<version>2.3.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.assertj</groupId>
+			<artifactId>assertj-core</artifactId>
+			<version>1.7.0</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	<build>
+		<plugins>
+			<!-- **************************************************************************************************************** -->
+			<!-- We are using maven-surefire-plugin and setting the 'configuration' 
+				'skip' to 'true' so that serenity does not use the surefire plugin to run 
+				the tests -->
+			<!-- By default Serenity tries to use maven-surefire-plugin so we are 
+				setting the skip to true -->
+			<!-- Instead we are using maven-failsafe-plugin to run the tests -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.18</version>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
+			</plugin>
+			<!-- **************************************************************************************************************** -->
+			<!-- Using maven-failsafe-plugin to run the tests -->
+			<plugin>
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<version>2.18</version>
+				<configuration>
+					<properties>
+						<URI>${app.uri}</URI>
+					</properties>
+					<includes>
+						<include>**/bddAPI/**/*.java</include>
+						<!-- Will Have to change the folder name "studentapp" -->
+						<include>**/bddAPI/*.java</include><!-- Include all the tests under 
+							the specified folder -->
+					</includes>
+					<forkCount>4</forkCount>
+					<reuseForks>true</reuseForks>
+					<!-- <parallel>methods</parallel> -->
+					<!-- <threadCount>10</threadCount> -->
+					<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<!-- Need both integration-test and verify -->
+							<goal>integration-test</goal><!-- This runs all the tests and verifies 
+								for any failures and then fails the build -->
+							<goal>verify</goal><!-- This runs all the tests and verifies for any 
+								failures and the fails the build -->
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<!-- **************************************************************************************************************** -->
+			<!-- Setting the Java compile to 1.8 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.2</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+			<!-- **************************************************************************************************************** -->
+			<!-- This plugin is mainly used to create report -->
+			<!-- Using the goal 'aggregate' we will have a single report -->
+			<plugin>
+				<groupId>net.serenity-bdd.maven.plugins</groupId>
+				<artifactId>serenity-maven-plugin</artifactId>
+				<version>${serenity.maven.version}</version>
+				<dependencies>
+					<dependency>
+						<groupId>net.serenity-bdd</groupId>
+						<artifactId>serenity-core</artifactId>
+						<version>${serenity.version}</version>
+					</dependency>
+				</dependencies>
+				<executions>
+					<execution>
+						<id>serenity-reports</id>
+						<phase>post-integration-test</phase>
+						<goals>
+							<goal>aggregate</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

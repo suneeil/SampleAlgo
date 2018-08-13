@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parallel test suite" parallel="tests" thread-count="3">
+  <test name="Test1">
+    <classes>
+      <class name="com.org.parallel.Test1"/>
+    </classes>
+  </test>
+  <test name="Test2">
+    <classes>
+      <class name="com.org.parallel.Test2"/>
+    </classes>
+  </test>
+  <test name="Test3">
+    <classes>
+      <class name="com.org.parallel.Test3"/>
+    </classes>
+  </test>
+</suite>

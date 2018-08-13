@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4864" started-at="2018-07-25T08:06:32Z" finished-at="2018-07-25T08:06:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4864" started-at="2018-07-25T08:06:32Z" finished-at="2018-07-25T08:06:37Z">
+      <class name="walmart.jsonPath.examples.WalmartSearch_JSONPath">
+        <test-method status="PASS" signature="init()[pri:0, instance:walmart.jsonPath.examples.WalmartSearch_JSONPath@28864e92]" name="init" is-config="true" duration-ms="829" started-at="2018-07-25T13:36:32Z" finished-at="2018-07-25T13:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="test0012()[pri:0, instance:walmart.jsonPath.examples.WalmartSearch_JSONPath@28864e92]" name="test0012" duration-ms="4009" started-at="2018-07-25T13:36:33Z" finished-at="2018-07-25T13:36:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test0012 -->
+      </class> <!-- walmart.jsonPath.examples.WalmartSearch_JSONPath -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel test suite" duration-ms="1304" started-at="2017-09-23T17:45:27Z" finished-at="2017-09-23T17:45:28Z">
+    <groups>
+    </groups>
+    <test name="Test2" duration-ms="1174" started-at="2017-09-23T17:45:27Z" finished-at="2017-09-23T17:45:28Z">
+      <class name="com.org.parallel.Test2">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:[Test2 passed=0 failed=0 skipped=0]]" name="beforeMethod" is-config="true" duration-ms="183" started-at="2017-09-23T23:15:27Z" finished-at="2017-09-23T23:15:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.org.parallel.Test2.test2A()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test2A()[pri:0, instance:[Test2 passed=0 failed=0 skipped=0]]" name="test2A" duration-ms="5" started-at="2017-09-23T23:15:27Z" finished-at="2017-09-23T23:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2A -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:[Test2 passed=0 failed=0 skipped=0]]" name="afterMethod" is-config="true" duration-ms="446" started-at="2017-09-23T23:15:27Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test2A on [Test2 passed=0 failed=0 skipped=0] status=SUCCESS method=Test2.test2A()[pri:0, instance:[Test2 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="test2B()[pri:0, instance:[Test2 passed=0 failed=0 skipped=0]]" name="test2B" duration-ms="2" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2B -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:[Test2 passed=0 failed=0 skipped=0]]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.org.parallel.Test2.test2B()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:[Test2 passed=0 failed=0 skipped=0]]" name="afterMethod" is-config="true" duration-ms="113" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test2B on [Test2 passed=0 failed=0 skipped=0] status=SUCCESS method=Test2.test2B()[pri:0, instance:[Test2 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="test2C()[pri:0, instance:[Test2 passed=0 failed=0 skipped=0]]" name="test2C" duration-ms="2" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2C -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:[Test2 passed=0 failed=0 skipped=0]]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.org.parallel.Test2.test2C()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:[Test2 passed=0 failed=0 skipped=0]]" name="afterMethod" is-config="true" duration-ms="95" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test2C on [Test2 passed=0 failed=0 skipped=0] status=SUCCESS method=Test2.test2C()[pri:0, instance:[Test2 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="test2D()[pri:0, instance:[Test2 passed=0 failed=0 skipped=0]]" name="test2D" duration-ms="7" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2D -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:[Test2 passed=0 failed=0 skipped=0]]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.org.parallel.Test2.test2D()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:[Test2 passed=0 failed=0 skipped=0]]" name="afterMethod" is-config="true" duration-ms="141" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test2D on [Test2 passed=0 failed=0 skipped=0] status=SUCCESS method=Test2.test2D()[pri:0, instance:[Test2 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="test2E()[pri:0, instance:[Test2 passed=0 failed=0 skipped=0]]" name="test2E" duration-ms="6" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2E -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:[Test2 passed=0 failed=0 skipped=0]]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.org.parallel.Test2.test2E()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:[Test2 passed=0 failed=0 skipped=0]]" name="afterMethod" is-config="true" duration-ms="139" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test2E on [Test2 passed=0 failed=0 skipped=0] status=SUCCESS method=Test2.test2E()[pri:0, instance:[Test2 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.org.parallel.Test2 -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="1236" started-at="2017-09-23T17:45:27Z" finished-at="2017-09-23T17:45:28Z">
+      <class name="com.org.parallel.Test3">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:[Test3 passed=0 failed=0 skipped=0]]" name="beforeMethod" is-config="true" duration-ms="182" started-at="2017-09-23T23:15:27Z" finished-at="2017-09-23T23:15:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.org.parallel.Test3.test3A()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test3A()[pri:0, instance:[Test3 passed=0 failed=0 skipped=0]]" name="test3A" duration-ms="5" started-at="2017-09-23T23:15:27Z" finished-at="2017-09-23T23:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3A -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:[Test3 passed=0 failed=0 skipped=0]]" name="afterMethod" is-config="true" duration-ms="321" started-at="2017-09-23T23:15:27Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test3A on [Test3 passed=0 failed=0 skipped=0] status=SUCCESS method=Test3.test3A()[pri:0, instance:[Test3 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:[Test3 passed=0 failed=0 skipped=0]]" name="beforeMethod" is-config="true" duration-ms="124" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.org.parallel.Test3.test3B()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test3B()[pri:0, instance:[Test3 passed=0 failed=0 skipped=0]]" name="test3B" duration-ms="1" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3B -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:[Test3 passed=0 failed=0 skipped=0]]" name="afterMethod" is-config="true" duration-ms="167" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test3B on [Test3 passed=0 failed=0 skipped=0] status=SUCCESS method=Test3.test3B()[pri:0, instance:[Test3 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:[Test3 passed=0 failed=0 skipped=0]]" name="beforeMethod" is-config="true" duration-ms="56" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.org.parallel.Test3.test3C()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test3C()[pri:0, instance:[Test3 passed=0 failed=0 skipped=0]]" name="test3C" duration-ms="1" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3C -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:[Test3 passed=0 failed=0 skipped=0]]" name="afterMethod" is-config="true" duration-ms="94" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test3C on [Test3 passed=0 failed=0 skipped=0] status=SUCCESS method=Test3.test3C()[pri:0, instance:[Test3 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:[Test3 passed=0 failed=0 skipped=0]]" name="beforeMethod" is-config="true" duration-ms="50" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.org.parallel.Test3.test3D()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test3D()[pri:0, instance:[Test3 passed=0 failed=0 skipped=0]]" name="test3D" duration-ms="1" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3D -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:[Test3 passed=0 failed=0 skipped=0]]" name="afterMethod" is-config="true" duration-ms="50" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test3D on [Test3 passed=0 failed=0 skipped=0] status=SUCCESS method=Test3.test3D()[pri:0, instance:[Test3 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:[Test3 passed=0 failed=0 skipped=0]]" name="beforeMethod" is-config="true" duration-ms="50" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.org.parallel.Test3.test3E()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test3E()[pri:0, instance:[Test3 passed=0 failed=0 skipped=0]]" name="test3E" duration-ms="1" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3E -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:[Test3 passed=0 failed=0 skipped=0]]" name="afterMethod" is-config="true" duration-ms="103" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test3E on [Test3 passed=0 failed=0 skipped=0] status=SUCCESS method=Test3.test3E()[pri:0, instance:[Test3 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:[Test3 passed=0 failed=0 skipped=0]]" name="afterSuite" is-config="true" duration-ms="48" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.org.parallel.Test3 -->
+    </test> <!-- Test3 -->
+    <test name="Test1" duration-ms="1304" started-at="2017-09-23T17:45:27Z" finished-at="2017-09-23T17:45:28Z">
+      <class name="com.org.parallel.Test1">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:[Test1 passed=0 failed=0 skipped=0]]" name="beforeMethod" is-config="true" duration-ms="183" started-at="2017-09-23T23:15:27Z" finished-at="2017-09-23T23:15:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.org.parallel.Test1.test1A()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test1A()[pri:0, instance:[Test1 passed=0 failed=0 skipped=0]]" name="test1A" duration-ms="6" started-at="2017-09-23T23:15:27Z" finished-at="2017-09-23T23:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1A -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:[Test1 passed=0 failed=0 skipped=0]]" name="afterMethod" is-config="true" duration-ms="387" started-at="2017-09-23T23:15:27Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1A on [Test1 passed=0 failed=0 skipped=0] status=SUCCESS method=Test1.test1A()[pri:0, instance:[Test1 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:[Test1 passed=0 failed=0 skipped=0]]" name="beforeMethod" is-config="true" duration-ms="57" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.org.parallel.Test1.test1B()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test1B()[pri:0, instance:[Test1 passed=0 failed=0 skipped=0]]" name="test1B" duration-ms="1" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1B -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:[Test1 passed=0 failed=0 skipped=0]]" name="afterMethod" is-config="true" duration-ms="49" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1B on [Test1 passed=0 failed=0 skipped=0] status=SUCCESS method=Test1.test1B()[pri:0, instance:[Test1 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:[Test1 passed=0 failed=0 skipped=0]]" name="beforeMethod" is-config="true" duration-ms="176" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.org.parallel.Test1.test1C()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test1C()[pri:0, instance:[Test1 passed=0 failed=0 skipped=0]]" name="test1C" duration-ms="1" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1C -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:[Test1 passed=0 failed=0 skipped=0]]" name="afterMethod" is-config="true" duration-ms="47" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1C on [Test1 passed=0 failed=0 skipped=0] status=SUCCESS method=Test1.test1C()[pri:0, instance:[Test1 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:[Test1 passed=0 failed=0 skipped=0]]" name="beforeMethod" is-config="true" duration-ms="98" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.org.parallel.Test1.test1D()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test1D()[pri:0, instance:[Test1 passed=0 failed=0 skipped=0]]" name="test1D" duration-ms="1" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1D -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:[Test1 passed=0 failed=0 skipped=0]]" name="afterMethod" is-config="true" duration-ms="105" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1D on [Test1 passed=0 failed=0 skipped=0] status=SUCCESS method=Test1.test1D()[pri:0, instance:[Test1 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:[Test1 passed=0 failed=0 skipped=0]]" name="beforeMethod" is-config="true" duration-ms="103" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.org.parallel.Test1.test1E()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test1E()[pri:0, instance:[Test1 passed=0 failed=0 skipped=0]]" name="test1E" duration-ms="1" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1E -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:[Test1 passed=0 failed=0 skipped=0]]" name="afterMethod" is-config="true" duration-ms="67" started-at="2017-09-23T23:15:28Z" finished-at="2017-09-23T23:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1E on [Test1 passed=0 failed=0 skipped=0] status=SUCCESS method=Test1.test1E()[pri:0, instance:[Test1 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.org.parallel.Test1 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Parallel test suite -->
+</testng-results>

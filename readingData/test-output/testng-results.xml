@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="85" started-at="2017-07-07T02:51:26Z" finished-at="2017-07-07T02:51:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="85" started-at="2017-07-07T02:51:26Z" finished-at="2017-07-07T02:51:26Z">
+      <class name="com.org.readingData.TestB">
+        <test-method status="PASS" signature="testA(java.util.HashMap)[pri:0, instance:com.org.readingData.TestB@161b062a]" name="testA" duration-ms="7" started-at="2017-07-07T08:21:26Z" data-provider="getData" finished-at="2017-07-07T08:21:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{runmode=Y, browser=mozilla, pwd=pwd1, username=u1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="testA(java.util.HashMap)[pri:0, instance:com.org.readingData.TestB@161b062a]" name="testA" duration-ms="1" started-at="2017-07-07T08:21:26Z" data-provider="getData" finished-at="2017-07-07T08:21:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{runmode=Y, browser=chrome, pwd=pwd2, username=SUNIL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="testA(java.util.HashMap)[pri:0, instance:com.org.readingData.TestB@161b062a]" name="testA" duration-ms="1" started-at="2017-07-07T08:21:26Z" data-provider="getData" finished-at="2017-07-07T08:21:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{runmode=N, browser=IE, pwd=pwd3, username=u3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+      </class> <!-- com.org.readingData.TestB -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

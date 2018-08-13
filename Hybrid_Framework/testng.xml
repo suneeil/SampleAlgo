@@ -1,0 +1,9 @@
+
+
+<suite name="All Suites">
+		<suite-files>
+			<suite-file path="./SessionSuite.xml"/>
+			<!--suite-file path=""/>
+			<suite-file path=""/-->
+		</suite-files>
+</suite>

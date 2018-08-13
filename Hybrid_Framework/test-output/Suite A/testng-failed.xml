@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite A]">
+  <test name="Bing Test(failed)">
+    <classes>
+      <class name="com.org.hybrid.testcases.BingTest">
+        <methods>
+          <include name="bingSearch" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.org.hybrid.testcases.BingTest -->
+    </classes>
+  </test> <!-- Bing Test(failed) -->
+</suite> <!-- Failed suite [Suite A] -->

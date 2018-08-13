@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [Parallel test suite]" parallel="tests">
+  <test name="Test3(failed)" parallel="tests">
+    <classes>
+      <class name="com.org.parallel.Test3">
+        <methods>
+          <include name="test3D"/>
+          <include name="test3A"/>
+          <include name="test3B"/>
+          <include name="beforeMethod"/>
+          <include name="test3E"/>
+          <include name="test3C"/>
+        </methods>
+      </class> <!-- com.org.parallel.Test3 -->
+      <class name="com.org.parallel.Test2">
+        <methods>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.org.parallel.Test2 -->
+      <class name="com.org.parallel.Test1">
+        <methods>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.org.parallel.Test1 -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test name="Test1(failed)" parallel="tests">
+    <classes>
+      <class name="com.org.parallel.Test3">
+        <methods>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.org.parallel.Test3 -->
+      <class name="com.org.parallel.Test2">
+        <methods>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.org.parallel.Test2 -->
+      <class name="com.org.parallel.Test1">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="test1D"/>
+          <include name="test1E"/>
+          <include name="test1A"/>
+          <include name="test1B"/>
+          <include name="test1C"/>
+        </methods>
+      </class> <!-- com.org.parallel.Test1 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test name="Test2(failed)" parallel="tests">
+    <classes>
+      <class name="com.org.parallel.Test3">
+        <methods>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.org.parallel.Test3 -->
+      <class name="com.org.parallel.Test2">
+        <methods>
+          <include name="test2B"/>
+          <include name="test2A"/>
+          <include name="beforeMethod"/>
+          <include name="test2E"/>
+          <include name="test2D"/>
+          <include name="test2C"/>
+        </methods>
+      </class> <!-- com.org.parallel.Test2 -->
+      <class name="com.org.parallel.Test1">
+        <methods>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.org.parallel.Test1 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->

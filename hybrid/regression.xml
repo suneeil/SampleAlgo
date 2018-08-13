@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Evangelist and Business Head" verbose="1">
+	<!--  parallel='tests' -->
+	
+	<!-- <test name="TestA" allow-return-values="true">
+	
+		<classes>
+			<class name="org.justdial.testSuite.yourSuiteNameA.TestClassA"/>
+		</classes>
+	</test>
+	
+	<test name="TestB" allow-return-values="true">
+	
+		<classes>
+			<class name="org.justdial.testSuite.yourSuiteNameA.TestB"/>
+		</classes>
+	</test> -->
+	
+	<test name="TestC" allow-return-values="true">
+	
+		<classes>
+			<class name="org.justdial.testSuite.SuiteB.TestB"/>
+		</classes>
+	</test>
+	
+	
+	
+	
+	
+	
+</suite>
